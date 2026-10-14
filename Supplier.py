@@ -375,4 +375,4 @@ class Supplier:
 
                             else:
                                 print("Invalid Choice")
-                                continue
+                                continue.
