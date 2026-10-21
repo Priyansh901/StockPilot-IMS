@@ -2,7 +2,7 @@ class Signup:
 
     def signup(self):
 
-        Full_name = input("Enter Full Name : ")
+        Full_name = input("Enter Full Name : ") 
         Username = input("Enter Username : ")
         Password = input("Enter Password : ")
         Phone = input("Enter Phone Number : ")
