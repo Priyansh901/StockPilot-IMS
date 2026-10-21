@@ -1,3 +1,5 @@
+from Database_Connection import Connection , Cursor
+
 class Products:
     
     def add_product(self):
