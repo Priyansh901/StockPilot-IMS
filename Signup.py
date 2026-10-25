@@ -1,3 +1,5 @@
+from Database_Connection import Connection , Cursor
+
 class Signup:
 
     def signup(self):
