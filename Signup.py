@@ -1,6 +1,7 @@
 from Database_Connection import Connection , Cursor
+from Homepage import *
 
-class Signup:
+class Signup(Homepage):
 
     def signup(self):
 
@@ -13,7 +14,7 @@ class Signup:
         try:
 
             Query = """
-            INSERT INTO Users
+            INSERT INTO User
             (username,password,full_name,phone,email)
             VALUES(%s,%s,%s,%s,%s)
             """
